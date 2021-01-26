@@ -1,17 +1,10 @@
-# D&D 5e Stuff
+# jquery/html -> react
 
-[PC Options Reference](https://tetra-cube.github.io/dnd/dnd-reference.html)
+## Getting started
 
-[Random Character Generator](https://tetra-cube.github.io/dnd/dnd-char-gen.html)
-
-[Magic Item Generator](https://tetra-cube.github.io/dnd/dnd-magic-items.html)
-
-[Statblock Generator](https://tetra-cube.github.io/dnd/dnd-statblock.html)
-
-# FE:A Quote Generator
-
-[Quote Generator](https://tetra-cube.github.io/fea-quote-gen/fea-quote-gen.html)
-
-Useful resources can be found here: http://incorrectfeaquotes.tumblr.com/post/148251320246/fea-quote-generator-masterpost
-
-Sprite sizes should be 256x256 to work properly. If you have a spritesheet you can use the sprite index box to specify which sprite to use.
+1. Make sure you have [node 14+](https://nodejs.org) installed
+2. You'll also need [yarn](https://yarnpkg.com/latest.msi)
+3. Open the project in visual studio code
+4. In a command prompt/terminal: `cd ours`
+5. `yarn install`
+6. `yarn start`

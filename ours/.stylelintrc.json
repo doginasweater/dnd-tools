@@ -1,0 +1,28 @@
+{
+  "extends": "stylelint-config-sass-guidelines",
+  "plugins": [ "stylelint-order" ],
+  "rules": {
+    "block-opening-brace-space-before": "always",
+    "declaration-bang-space-before": "always",
+    "font-family-no-missing-generic-family-keyword": null,
+    "function-comma-space-after": "always-single-line",
+    "no-descending-specificity": null,
+    "no-duplicate-selectors": null,
+    "order/order": [
+      {
+        "type": "at-rule",
+        "name": "include"
+      },
+      {
+        "type": "at-rule",
+        "name": "extends"
+      },
+      "declarations",
+      {
+        "type": "at-rule",
+        "name": "media"
+      }
+    ],
+    "order/properties-alphabetical-order": true
+  }
+}
