@@ -34,6 +34,7 @@ module.exports = {
       prop: 'parens-new-line'
     } ],
     'react/jsx-no-useless-fragment': 'warn',
+    'react/prop-types': 'off',
 
     // typescript-specific
     '@typescript-eslint/brace-style': 'warn',
