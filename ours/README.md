@@ -12,7 +12,7 @@ Arguably the file that defines the project. It started out as a way to list whic
 
 The main way to interact with `package.json` is through package managers like `npm` or `yarn`. We'll be using `yarn` for this project.
 
-```json
+```js
 {
   "name": "defines the name of the project/package",
   "private": true, // this means the project can never accidentally be published through npm/yarn
